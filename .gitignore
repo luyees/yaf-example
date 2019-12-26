@@ -43,5 +43,4 @@ storage/
 /public/buildimg/
 /public/mix-manifest.json
 bootstrap/cache/*
-/conf/*.ini
-
+conf/*.ini
