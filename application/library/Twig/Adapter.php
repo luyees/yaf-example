@@ -107,10 +107,11 @@ class Adapter implements \Yaf\View_Interface
      */
     public function render($template, $variables = null)
     {
+
         if ( is_array($variables) ) {
             $this->variables = array_merge($this->variables, $variables);
         }
-
+        
         return $this->twig->loadTemplate($template)->render($this->variables);
     }
 
