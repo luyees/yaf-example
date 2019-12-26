@@ -11,4 +11,9 @@ class IndexController extends \Yaf\Controller_Abstract
     {
         $this->getView()->assign("content", "Hello Yaf!");
     }
+
+    public function testAction()
+    {
+    	
+    }
 }
